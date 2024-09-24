@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gestor de Tareas Profesional</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>Gestor de Tareas 📚</h1>
+      <button id="dark-mode"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <main>
+      <section id="task-form">
+        <form id="add-task-form">
+          <input type="text" id="task-input" placeholder="Nueva tarea..." required>
+          <button id="add-task-btn" type="submit"><i class="fas fa-plus"></i></button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Mis Tareas</h2>
+        <div id="task-list-container">
+          <ul id="task-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
