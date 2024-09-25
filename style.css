@@ -237,3 +237,8 @@ h1 {
   width: 35px;
   height: 35px;
 }
+
+#buttons-edit button {
+  height: 35px;
+  width: 35px;
+}

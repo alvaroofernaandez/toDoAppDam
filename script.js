@@ -21,7 +21,7 @@ function renderTasks() {
     const li = document.createElement('li');
     li.innerHTML = `
       <span class="${task.completed ? 'completed' : ''}">${task.text}</span>
-      <div>
+      <div id="buttons-edit">
         <button class="edit-btn" data-index="${index}"><i class="fas fa-edit"></i></button>
         <button class="delete-btn" data-index="${index}"><i class="fas fa-trash"></i></button>
         <button class="complete-btn" data-index="${index}"><i class="fas fa-check"></i></button>
